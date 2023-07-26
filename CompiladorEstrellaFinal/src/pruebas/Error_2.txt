@@ -1,0 +1,16 @@
+principal{
+
+       entero numero1 = 10;
+       entero numero2 = 30;
+       
+       entero suma;
+       entero resta;
+       entero division;
+       entero multiplicacion;
+
+       multiplicacion = numero1 * numero2;
+       resta = numero1 - numero2;
+       suma = numero1 + numero2;
+       division = numero1 / numero2;
+
+}

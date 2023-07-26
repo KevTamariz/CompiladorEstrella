@@ -1,0 +1,10 @@
+DECLARACION~entero~numero1
+ASIGNACION~numero1=10
+DECLARACION~entero~numero2
+ASIGNACION~numero2=2
+DECLARACION~entero~numero3
+ASIGNACION~numero3=5
+DECLARACION~entero~resultado
+ASIGNACION~resultado=
+ASIGNACION~resultado=numero1*numero2
+IMPRESION~resultado

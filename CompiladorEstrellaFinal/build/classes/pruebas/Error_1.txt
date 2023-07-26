@@ -1,0 +1,13 @@
+principal{
+
+       entero numero1 = 10;
+       entero numero2 = 2;
+       entero numero3 = 5;
+
+       
+       entero resultado;
+
+       resultado = numero1 * numero2;
+
+       imprimir: resultado;
+}

@@ -1,0 +1,11 @@
+principal{
+
+       entero numero1 = 8;
+       entero numero2 = 2;
+       
+       si(numero1 > numero2){
+          imprimir: "Numero1 es mayor que Numero2";
+       }si no{
+          imprimir: "Numero1 es menor que Numero2";     
+       }
+}

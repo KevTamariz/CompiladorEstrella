@@ -1,0 +1,58 @@
+principal{
+
+       entero num1 = 10;
+       entero num2 = 5;
+
+
+       entero res_suma;
+       entero res_resta;
+       entero res_multi;
+       entero res_div;
+
+       entero i;
+
+       entero a = 100;
+       entero b = 70;
+       entero x = 50;
+       entero y = 20;
+
+       entero selec;
+
+       res_suma = num1 + num2;
+       res_resta = num1 - num2;
+       res_multi = num1 * num2;
+       res_div = num1 / num2;
+
+       
+       // IF
+       si(x > y){
+          imprimir: "X es mayor que Y";
+       }si no{
+          imprimir: "Y es menor que X";     
+       }
+       
+
+       // FOR
+       para (i = 0 ; i < 5 ; i = i + 1){
+              imprimir: res_suma;
+       }
+
+       
+       //WHILE
+       mientras(x > b && y < a){
+        imprimir: "se inicia el bucle";
+       }
+
+       
+       //SWITCH
+       selector(selec){
+       seleccion 1:{
+           imprimir: "el mes es enero";
+           romper;
+       }
+       seleccion 2:{
+           imprimir: "es el mes de febrero";
+           romper;
+       } 
+    }
+  }
